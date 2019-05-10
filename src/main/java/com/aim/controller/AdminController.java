@@ -1,5 +1,6 @@
 package com.aim.controller;
 
+import com.aim.entity.File;
 import com.aim.service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,8 +15,8 @@ public class AdminController {
     private AdminService adminService;
 
     @RequestMapping("/findAll")
-    public List<Admin> findAll() {
-        List<Admin> all = adminService.findAll();
+    public List<File> findAll() {
+        List<File> all = adminService.findAll();
         return all;
     }
 }

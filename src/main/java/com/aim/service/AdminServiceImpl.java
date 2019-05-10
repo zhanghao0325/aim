@@ -1,6 +1,7 @@
 package com.aim.service;
 
 import com.aim.dao.AdminDao;
+import com.aim.entity.File;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -14,8 +15,8 @@ public class AdminServiceImpl implements AdminService {
     private AdminDao adminDao;
 
     @Override
-    public List<Admin> findAll() {
-        List<Admin> list = adminDao.selectAll();
+    public List<File> findAll() {
+        List<File> list = adminDao.selectAll();
         return list;
     }
 }
