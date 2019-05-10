@@ -31,7 +31,7 @@
         <!-- 引入数据源 -->
         <property name="dataSource" ref="dataSource"/>
         <!-- 指定mapper文件位置 -->
-        <property name="mapperLocations" value="classpath:com/aim/mapper/*Mapper.xml"/>
+        <property name="mapperLocations" value="classpath:com/aim/mapper/AdminDaoMapper.xml"/>
         <!-- 给实体类起别名: 指定实体类所在包结构的位置，默认以类名作为别名 -->
         <property name="typeAliasesPackage" value="com.aim.entity"/>
     </bean>
