@@ -134,7 +134,7 @@ public class CsrPdfRead1 {
             System.out.print("4");
             System.out.println(pdfFilePath);
             result = stripper.getText(document);
-            FileWriter fw = new FileWriter("D:/rs/" + ".txt", false);
+            FileWriter fw = new FileWriter(pdfFilePath+".txt", false);
             fw.write(result);
             fw.flush();
             fw.close();

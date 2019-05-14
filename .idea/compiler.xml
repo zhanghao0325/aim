@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="aimjava" />
-        <module name="AimProject" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AimProject" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

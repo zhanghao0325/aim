@@ -1,28 +1,41 @@
 package com.aim.controller;
 
 import com.aim.common.FastDFSClient;
+import com.aim.entity.File;
 import org.apache.commons.io.FilenameUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.ServletContext;
+import java.io.IOException;
+
 @Controller
 @RequestMapping("/upload")
 public class UploadFileController {
-//    @Autowired
-//    private  CsrPdfRead csrPdfRead;
+    @Autowired
+    private ServletContext servletContext;
+    @Autowired
+    private CopyFile copyFile;
     @Value("${FILE_SERVER_URL}")
     String fsu;
+
     @RequestMapping("/uploadFile")
     public ModelAndView uploadFile(MultipartFile file) throws Exception {
-            ModelAndView modelAndView = new ModelAndView();
-            //获取图片路径
-            String originalFilename = file.getOriginalFilename();
-            System.out.println(originalFilename);
+        ModelAndView modelAndView = new ModelAndView();
+        //获取文件名
+        String originalFilename = file.getOriginalFilename();
+        System.out.println(originalFilename);
+        String realPath = servletContext.getRealPath("/upload");
+        //上传路径名
+        System.out.println(realPath + originalFilename);
+        String name = String.valueOf(originalFilename);
+        //文件最终路径
+        String rs = realPath +"/"+ name;
+        System.out.println(rs);
 
         try {
             //创建跟踪器
@@ -36,21 +49,13 @@ public class UploadFileController {
             FastDFSClient fastDFSClient = new FastDFSClient("classpath:fastDFS/fdfs_client.conf");
             String extension = FilenameUtils.getExtension(file.getOriginalFilename());
             String path = fastDFSClient.uploadFile(file.getBytes(), extension, null);
-            String rs=fsu+path;
-            System.out.println(fsu+path);
-//            int i = originalFilename.indexOf(".");
-//            String substring = originalFilename.substring(i);
-////        System.out.println(substring);
-//            if (".doc".equals(substring)){
-//
-//            }else if (".pdf".equals(substring)){
-//                csrPdfRead.start(rs,originalFilename);
-//            }
-//            modelAndView.setViewName("upload");
+            System.out.println(fsu + path);
+            copyFile.copy(file,rs,originalFilename);
+            modelAndView.setViewName("upload");
             return modelAndView;
         } catch (Exception e) {
             e.printStackTrace();
-//            modelAndView.setViewName("upload");
+            modelAndView.setViewName("upload");
             return modelAndView;
         }
     }

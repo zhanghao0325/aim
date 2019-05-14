@@ -8,7 +8,7 @@ import java.util.Date;
  * @author       luwenbin006@163.com
  * @createTime   2014-11-22 下午04:56:54
  */
-public class File implements Serializable
+public class File extends java.io.File implements Serializable
 {
     private static final long serialVersionUID = -110840196972249172L;
 
@@ -114,7 +114,9 @@ public class File implements Serializable
         return serialVersionUID;
     }
 
-    public File() {}
+    public File(String realPath) {
+        super(realPath);
+    }
 
     @Override
     public int hashCode()

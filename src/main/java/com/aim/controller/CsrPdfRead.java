@@ -10,7 +10,7 @@ import java.io.InputStreamReader;
 import java.sql.SQLException;
 
 
-import com.sun.xml.internal.ws.api.policy.PolicyResolver;
+import org.apache.commons.io.FilenameUtils;
 import org.apache.pdfbox.io.RandomAccessBuffer;
 import org.apache.pdfbox.pdfparser.PDFParser;
 import org.apache.pdfbox.pdmodel.PDDocument;
@@ -32,20 +32,20 @@ public class CsrPdfRead {
      * @throws InterruptedException
      * @throws SQLException
      */
-    public  void start(String filepath,String name) throws InterruptedException, SQLException {
+    public  void start(String filepath) throws InterruptedException, SQLException {
 
 
         if (!filepath.toUpperCase().endsWith(".TXT")) {
-                    System.out.println(getOrderText(filepath,name));
+                    System.out.println(getOrderText(filepath));
             }
     }
 
-    public  String getOrderText(String filepath,String name) {
+    public  String getOrderText(String filepath) {
         String filetxt = "";
         try {
 
             String encoding = "GBK";
-            String newfilepath = getTextFromPDF(filepath,name);
+            String newfilepath = getTextFromPDF(filepath);
             if (newfilepath == null) {
                 return "";
             }
@@ -98,8 +98,7 @@ public class CsrPdfRead {
         return filetxt;
     }
 
-    public  String getTextFromPDF(String pdfFilePath,String name) {
-        String realPath = servletContext.getRealPath("/upload");
+    public  String getTextFromPDF(String pdfFilePath) {
         String result = null;
         FileInputStream is = null;
         PDDocument document = null;
@@ -115,7 +114,7 @@ public class CsrPdfRead {
             PDFTextStripper stripper = new PDFTextStripper();
             System.out.println(pdfFilePath);
             result = stripper.getText(document);
-            FileWriter fw = new FileWriter( realPath+ name+".txt", false);
+            FileWriter fw = new FileWriter( pdfFilePath+".txt", false);
             fw.write(result);
             fw.flush();
             fw.close();
@@ -141,6 +140,6 @@ public class CsrPdfRead {
                 }
             }
         }
-        return realPath+name+ ".txt";
+        return pdfFilePath+ ".txt";
     }
 }
