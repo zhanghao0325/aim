@@ -17,7 +17,7 @@ public class CopyFile {
             File writerFile = new File(rs);
             //如果没有文件  创建
             if (!writerFile.isDirectory()) {
-                writerFile.createNewFile();
+                writerFile.mkdirs();
             }
             //将文件复制到指定路径下
             file.transferTo(writerFile);
