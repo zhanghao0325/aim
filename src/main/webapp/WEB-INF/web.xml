@@ -38,8 +38,9 @@
     <!-- 引入spring.xml -->
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>classpath:/spring/spring.xml</param-value>
+        <param-value>classpath:/spring/*.xml</param-value>
     </context-param>
+
     <!-- 配置监听器 -->
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>

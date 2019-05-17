@@ -3,6 +3,15 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$" />
+    <file type="web" url="file://$PROJECT_DIR$/../pyg-master/pinyougou_service_buyer" />
+    <file type="web" url="file://$PROJECT_DIR$/../pyg-master/pinyougou_service_page" />
+    <file type="web" url="file://$PROJECT_DIR$/../pyg-master/pinyougou_service_search" />
+    <file type="web" url="file://$PROJECT_DIR$/../pyg-master/pinyougou_service_sellergoods" />
+    <file type="web" url="file://$PROJECT_DIR$/../pyg-master/pinyougou_service_user" />
+    <file type="web" url="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_manager" />
+    <file type="web" url="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_portal" />
+    <file type="web" url="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_shop" />
+    <file type="web" url="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_user" />
     <file type="web" url="file://$PROJECT_DIR$/../testMaven" />
   </component>
   <component name="JavaScriptSettings">
@@ -12,6 +21,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../pyg-master/pom.xml" />
       </list>
     </option>
   </component>

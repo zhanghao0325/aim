@@ -7,6 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="aimjava" />
+        <module name="pinyougou-common" />
+        <module name="pinyougou-pojo" />
+        <module name="pinyougou_dao" />
+        <module name="pinyougou_interface" />
+        <module name="pinyougou_service_buyer" />
+        <module name="pinyougou_service_page" />
+        <module name="pinyougou_service_search" />
+        <module name="pinyougou_service_sellergoods" />
+        <module name="pinyougou_service_user" />
+        <module name="pinyougou_web_manager" />
+        <module name="pinyougou_web_portal" />
+        <module name="pinyougou_web_shop" />
+        <module name="pinyougou_web_user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
