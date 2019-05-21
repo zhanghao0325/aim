@@ -7,20 +7,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8a9c5cb-3b87-4504-9526-e0afd7b67588" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aim/entity/UplodFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-solr.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aim/controller/FindController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aim/controller/SaveSqlController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aim/dao/FileDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aim/entity/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aim/entity/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aim/service/FindService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aim/service/Impl/FindServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aim/service/Impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aim/service/Impl/SaveSqlserviceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aim/service/SaveSqlservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/aim/dao/FileDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/base_pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/controller/searchController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/controller/uploadController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/czFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/service/searchService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/service/uploadService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/widget/jquery.autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/widget/nav-portal-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/widget/nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/list1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/angularjs/angular-animate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/angularjs/angular-route.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/angularjs/angular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/angularjs/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/angularjs/pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/birthday/birthday.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/citypicker/distpicker.data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/citypicker/distpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/cssgrids/cssgrids-min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jquery-placeholder/jquery.placeholder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jquery.easing/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/normalize/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/qrious.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/sui/sui-append.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/sui/sui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/sui/sui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/upload/uploadPreview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aim/test/DelTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aim/common/lic_2999.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aim/controller/CopyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aim/controller/CopyFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aim/controller/UploadFileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aim/controller/UploadFileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aim/entity/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aim/entity/File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AimProject/WEB-INF/classes/com/aim/entity/File.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AimProject/WEB-INF/classes/com/aim/entity/File.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AimProject/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/AimProject/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aim/entity/File.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aim/entity/File.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/aim/mapper/AdminDaoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/aim/dao/AdminDaoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-solr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-solr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/springMVC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AimProject/WEB-INF/classes/com/aim/mapper/AdminDaoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AimProject/WEB-INF/classes/spring/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/AimProject/WEB-INF/classes/spring/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AimProject/WEB-INF/classes/spring/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/AimProject/WEB-INF/classes/spring/springMVC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AimProject/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AimProject/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aim/mapper/AdminDaoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/springMVC.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,91 +96,90 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_shop/src/main/webapp/admin/goods_edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-371">
+              <caret line="293" column="84" selection-start-line="293" selection-start-column="84" selection-end-line="293" selection-end-column="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_shop/src/main/webapp/js/controller/goodsController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2706">
+              <caret line="123" column="32" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/upload.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="16" column="70" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/controller/uploadController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="70" selection-start-column="70" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_shop/src/main/webapp/js/service/uploadService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/service/uploadService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/controller/UploadFileController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="66" column="60" selection-start-line="66" selection-start-column="60" selection-end-line="66" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-506">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_service_search/src/main/resources/spring/applicationContext-service.xml">
+        <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_shop/src/main/java/cn/itcast/core/controller/UploadController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="10" column="63" lean-forward="true" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+            <state relative-caret-position="-196">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/entity/UplodFile.java">
+        <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_pojo/src/main/java/entity/Result.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-              <folding>
-                <element signature="e#254#255#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-solr.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="13" column="81" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
+            <state relative-caret-position="134">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-242">
-              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/springMVC.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_service_search/src/main/resources/spring/applicationContext-jms-consumer.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/entity/Result.java">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_service_search/src/main/java/cn/itcast/core/listener/ItemSearchListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -141,8 +188,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
-        <option value="JavaScript File" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="Tag Library Descriptor" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -152,6 +202,13 @@
       <find>isFile</find>
       <find>jms</find>
       <find>solr</find>
+      <find>搜索</find>
+      <find>resultMap</find>
+      <find>openDetailPage</find>
+      <find>商品图片</find>
+      <find>uploadService</find>
+      <find>uploadFile</find>
+      <find>file</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -160,32 +217,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../testMaven/pom.xml" />
-        <option value="$PROJECT_DIR$/../testMaven/src/main/webapp/upload.js" />
-        <option value="$PROJECT_DIR$/../testMaven/src/main/webapp/upload.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aim/service/AdminService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aim/service/AdminServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aim/dao/AdminDao.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/aim/test/TestAdmin.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/aim/mapper/AdminDaoMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aim/controller/UploadFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aim/controller/UploadFileController" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aim/common/FastDFSClient.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/upload.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/db/fdfs_client.conf" />
-        <option value="$PROJECT_DIR$/src/main/resources/config/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aim/controller/PdfToTxt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aim/controller/pdfFilePath.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aim/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/upload.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/springMVC.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aim/controller/CsrPdfRead1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aim/common/License.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aim/common/Word2PdfUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aim/common/lic_2999.xml：" />
-        <option value="$PROJECT_DIR$/src/test/java/com/aim/test/ChangeMethod.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/aim/test/test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aim/common/Doc2Pdf.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aim/common/Xml2Pdf.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aim/common/ToXml.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aim/controller/CsrPdfRead.java" />
@@ -194,15 +225,49 @@
         <option value="$PROJECT_DIR$/src/main/java/com/aim/common/TestMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aim/common/Start.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aim/common/SplitParagraph.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aim/controller/CopyFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aim/entity/File.java" />
         <option value="$PROJECT_DIR$/../pyg-master/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-jms-consumer.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aim/service/SearchService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aim/service/Impl/SearchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aim/dao/SearchDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aim/dao/SearchDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aim/dao/Impl/SearchDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aim/controller/SearchController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aim/entity/UplodFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aim/controller/UploadFileController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-solr.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/aim/test/DelTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aim/controller/CopyFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aim/controller/SaveSqlController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aim/service/SaveSqlservice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aim/dao/FileDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aim/service/Impl/SaveSqlserviceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/search.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/aim/dao/FileDao.xml" />
+        <option value="$PROJECT_DIR$/../pyg-master/pinyougou_service_search/src/main/java/cn/itcast/core/service/impl/ItemsearchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/product-list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aim/entity/PageBean.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aim/service/Impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/list1.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/base.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aim/service/FindService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aim/service/Impl/FindServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/search.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/springMVC.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/service/searchService.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/search.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aim/controller/FindController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/controller/searchController.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/upload.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/service/uploadService.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aim/entity/Result.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aim/controller/UploadFileController.java" />
+        <option value="$PROJECT_DIR$/../pyg-master/pinyougou_web_shop/src/main/webapp/js/service/uploadService.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/controller/uploadController.js" />
       </list>
     </option>
   </component>
@@ -244,141 +309,119 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
               <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="parent" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
               <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou-common" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou-pojo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou-pojo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou-pojo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou-pojo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou-pojo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="vo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_service_search" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_service_search" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_service_search" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_service_search" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="aim" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_service_search" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="aim" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="common" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_service_search" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="itcast" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="aim" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_service_search" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="itcast" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="aim" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_service_search" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="itcast" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="listener" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="aim" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="entity" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_service_search" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="itcast" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="aim" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_service_search" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="itcast" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="aim" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="impl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Impl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_service_search" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_service_search" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
@@ -386,206 +429,150 @@
             </path>
             <path>
               <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_service_sellergoods" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_service_sellergoods" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_service_sellergoods" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_service_sellergoods" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_service_sellergoods" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_service_sellergoods" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pinyougou" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_service_sellergoods" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pinyougou" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="sellergoods" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_service_sellergoods" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pinyougou" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="sellergoods" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_service_sellergoods" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pinyougou" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="sellergoods" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="impl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_web_manager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_web_manager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_web_manager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_web_manager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_web_manager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_web_manager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="itcast" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_web_manager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="itcast" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_web_manager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="itcast" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_web_portal" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_web_portal" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_web_portal" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_web_portal" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_web_portal" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_web_portal" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="itcast" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_web_portal" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="itcast" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_web_portal" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="itcast" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="pinyougou_web_portal" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="itcast" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="pages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="WEB-INF" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pinyougou-pojo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pinyougou-pojo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pinyougou-pojo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pinyougou-pojo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pinyougou-pojo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pinyougou-pojo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="entity" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pinyougou_web_manager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pinyougou_web_manager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pinyougou_web_manager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pinyougou_web_manager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pinyougou_web_manager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pinyougou_web_manager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pinyougou_web_manager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spring" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pinyougou_web_manager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pinyougou_web_manager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -646,40 +633,110 @@
               <item name="itcast" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pinyougou_web_shop" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pinyougou_web_shop" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="admin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pinyougou_web_shop" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pinyougou_web_shop" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pinyougou_web_shop" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="plugins" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pinyougou_web_user" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pinyougou_web_user" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pinyougou_web_user" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pinyougou_web_user" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558084645381" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558434231624" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pyg-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\aimjava\src\main\resources\fastDFS" />
-      <recent name="D:\workspace\aimjava\src\main\webapp\pages" />
-      <recent name="D:\workspace\aimjava\src\main\resources\spring" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.aim.controller" />
-      <recent name="com.aim.entity" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.aim.service.Impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\aimjava\src\main\resources\spring" />
+      <recent name="D:\workspace\aimjava\src\main\webapp\js\service" />
+      <recent name="D:\workspace\aimjava\src\main\webapp\js" />
       <recent name="D:\workspace\aimjava\src\main\webapp" />
-      <recent name="D:\workspace\testMaven\src\main\webapp" />
-      <recent name="D:\workspace\aimjava\src\main\resources" />
+      <recent name="D:\workspace\aimjava\src\main\java\com\aim\service\Impl" />
+      <recent name="D:\workspace\aimjava\src\main\java\com\aim\entity" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.aim.entity" />
+      <recent name="com.aim.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\aimjava\src\main\webapp" />
+      <recent name="D:\workspace\aimjava\src\main\webapp\pages" />
+      <recent name="D:\workspace\aimjava\src\main\resources\fastDFS" />
+      <recent name="D:\workspace\aimjava\src\main\resources\spring" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -708,12 +765,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Doc2Pdf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aim.common.Doc2Pdf" />
+    <configuration name="CsrPdfRead1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aim.controller.CsrPdfRead1" />
       <module name="aimjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aim.common.*" />
+          <option name="PATTERN" value="com.aim.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -723,19 +780,6 @@
     </configuration>
     <configuration name="GetParagraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aim.common.GetParagraph" />
-      <module name="aimjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aim.common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PdfSplitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aim.common.PdfSplitter" />
       <module name="aimjava" />
       <extension name="coverage">
         <pattern>
@@ -769,6 +813,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DelTest.del" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aimjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aim.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aim.test" />
+      <option name="MAIN_CLASS_NAME" value="com.aim.test.DelTest" />
+      <option name="METHOD_NAME" value="del" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -910,25 +970,27 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="aimjava:war" />
+          <artifact name="aimjava:war exploded" />
+          <artifact name="pinyougou_web_portal:war" />
         </option>
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.CsrPdfRead" />
-      <item itemvalue="Application.Doc2Pdf" />
       <item itemvalue="Application.GetParagraph" />
       <item itemvalue="Application.TestMain" />
-      <item itemvalue="Tomcat Server.Tomcat 7.0.57" />
-      <item itemvalue="Application.PdfSplitter" />
       <item itemvalue="Application.Start" />
+      <item itemvalue="Application.CsrPdfRead1" />
+      <item itemvalue="JUnit.DelTest.del" />
+      <item itemvalue="Tomcat Server.Tomcat 7.0.57" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DelTest.del" />
+        <item itemvalue="Application.CsrPdfRead1" />
         <item itemvalue="Application.Start" />
         <item itemvalue="Application.TestMain" />
         <item itemvalue="Application.GetParagraph" />
-        <item itemvalue="Application.PdfSplitter" />
-        <item itemvalue="Application.Doc2Pdf" />
       </list>
     </recent_temporary>
   </component>
@@ -950,7 +1012,8 @@
       <workItem from="1557885552872" duration="669000" />
       <workItem from="1557886330738" duration="1145000" />
       <workItem from="1557887673736" duration="10185000" />
-      <workItem from="1557971859340" duration="27874000" />
+      <workItem from="1557971859340" duration="50130000" />
+      <workItem from="1558341161240" duration="24565000" />
     </task>
     <task id="LOCAL-00001" summary="修改了一些配置  --张浩">
       <created>1557471303494</created>
@@ -994,7 +1057,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558002606526</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="完成上传solr索引库  --张浩">
+      <created>1558084773903</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558084773903</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1010,14 +1080,29 @@
     <history-entry file="ChangeMethod_changeMethod - 2019.05.15 at 11h 32m 27s.xml">
       <configuration name="ChangeMethod.changeMethod" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DelTest_del - 2019.05.20 at 10h 57m 27s.xml">
+      <configuration name="DelTest.del" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DelTest_del - 2019.05.20 at 10h 58m 29s.xml">
+      <configuration name="DelTest.del" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DelTest_del - 2019.05.20 at 10h 58m 54s.xml">
+      <configuration name="DelTest.del" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DelTest_del - 2019.05.20 at 13h 03m 54s.xml">
+      <configuration name="DelTest.del" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DelTest_del - 2019.05.20 at 13h 29m 51s.xml">
+      <configuration name="DelTest.del" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94851000" />
+    <option name="totallyTimeSpent" value="141672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26206434" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1883378" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1026,9 +1111,9 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.45184135" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.5056657" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.38243628" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45750707" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" visible="true" weight="0.48725212" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1036,7 +1121,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3101983" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.41218132" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013405" side_tool="true" weight="0.388102" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Application Servers" order="14" weight="0.3286119" />
@@ -1062,138 +1147,50 @@
     <MESSAGE value="文档转换pdf  --张浩" />
     <MESSAGE value="实现pdf转txt格式  --张浩" />
     <MESSAGE value="实现txt文档的分段  --张浩" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现txt文档的分段  --张浩" />
+    <MESSAGE value="完成上传solr索引库  --张浩" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成上传solr索引库  --张浩" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/aim/service/Impl/FindServiceImpl.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/aim/controller/UploadFileController.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../transform-master/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1297" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../transform-master/src/main/java/com/fish/fileparser/utils/ConverFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/common/Xml2Pdf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="38" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/JAVA/Jdk1.8/src.zip!/java/nio/charset/Charset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="603" column="26" selection-start-line="603" selection-start-column="26" selection-end-line="603" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/AimProject/pages/upload.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="65" lean-forward="true" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/aim/controller/CsrPdfRead.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
-          <folding>
-            <element signature="e#0#4713#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/common/ToXml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/controller/CsrPdfRead1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/JAVA/Jdk1.8/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="652" selection-start-line="652" selection-end-line="652" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/common/PdfSplitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/common/SaveFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/common/GetParagraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#162#170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.0.13/druid-1.0.13.jar!/com/alibaba/druid/pool/DruidAbstractDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="981" column="16" selection-start-line="981" selection-start-column="16" selection-end-line="981" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_portal/src/main/java/cn/itcast/core/service/UserDetailServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_portal/src/main/java/cn/itcast/core/controller/AddressController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_portal/src/main/java/cn/itcast/core/controller/ItemsearchController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state relative-caret-position="418">
+          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#639#640#0" expanded="true" />
             <element signature="e#696#697#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_service_search/src/main/java/cn/itcast/core/service/impl/ItemsearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="118" column="8" selection-start-line="118" selection-start-column="8" selection-end-line="134" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1205,262 +1202,300 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_service_search/src/main/java/cn/itcast/core/service/impl/ItemsearchServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/entity/UplodFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_manager/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/list1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="88" column="80" selection-start-line="88" selection-start-column="80" selection-end-line="88" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/plugins/angularjs/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="195" column="461" selection-start-line="195" selection-start-column="461" selection-end-line="195" selection-end-column="461" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_portal/src/main/webapp/js/base_pagination.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_manager/src/main/java/cn/itcast/core/controller/VitalityController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/czFunction.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
+        <state relative-caret-position="-198" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_manager/src/main/java/cn/itcast/core/controller/SpecificationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_manager/src/main/java/cn/itcast/core/controller/Order_statisticsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#593#617#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_interface/src/main/java/com/pinyougou/sellergoods/service/GoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_service_search/src/main/java/cn/itcast/core/listener/ItemDeleteListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/common/TestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1006">
-          <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/controller/CsrPdfRead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/common/SplitParagraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/common/Start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/controller/CopyFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_pojo/src/main/java/vo/GoodsVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_manager/src/main/java/cn/itcast/core/controller/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_service_sellergoods/src/main/java/com/pinyougou/sellergoods/service/impl/GoodsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_shop/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/base_pagination.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/entity/File.java">
+    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_portal/src/main/webapp/js/czFunction.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        <state relative-caret-position="-1921" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_portal/src/main/webapp/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_pojo/src/main/java/cn/itcast/core/pojo/item/Item.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-jms-consumer.xml">
+    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_portal/src/main/webapp/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="186">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg-master/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_portal/src/main/resources/spring/spring-security.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="256" column="24" selection-start-line="256" selection-start-column="24" selection-end-line="256" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="139" column="40" selection-start-line="139" selection-start-column="40" selection-end-line="139" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_service_search/src/main/resources/spring/applicationContext-solr.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_service_search/src/main/java/cn/itcast/core/listener/ItemSearchListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_service_search/src/main/resources/spring/applicationContext-jms-consumer.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-242">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/springMVC.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+        <state relative-caret-position="396">
+          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+        <state relative-caret-position="-792" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_portal/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_service_search/src/main/resources/spring/applicationContext-service.xml">
+    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_manager/src/main/resources/spring/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="10" column="63" lean-forward="true" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+        <state relative-caret-position="-132" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.4.RELEASE/spring-web-4.0.4.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/entity/UplodFile.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/springMVC.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="149">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/service/FindService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/widget/cartPanelView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2244" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/widget/nav-portal-top.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/widget/jquery.autocomplete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3168">
           <folding>
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/controller/UploadFileController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/controller/FindController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="66" column="60" selection-start-line="66" selection-start-column="60" selection-end-line="66" selection-end-column="60" />
+        <state relative-caret-position="-373">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-solr/1.5.5.RELEASE/spring-data-solr-1.5.5.RELEASE.jar!/org/springframework/data/solr/core/SolrTemplate.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/service/Impl/FindServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="149" selection-start-line="149" selection-end-line="149" />
-          <folding>
-            <element signature="e#7271#7557#0" expanded="true" />
-            <element signature="e#7556#7557#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="242">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-solr.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/controller/searchController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_manager/src/main/webapp/js/controller/goodsDescController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1577" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_manager/src/main/webapp/js/controller/goodsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2112" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_manager/src/main/webapp/js/controller/indexController.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_manager/src/main/webapp/js/controller/itemCatController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_shop/src/main/webapp/shoplogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1046" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_shop/src/main/webapp/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2271" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_shop/src/main/webapp/admin/goods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_shop/src/main/webapp/cooperation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3261" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_shop/src/main/webapp/form.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_shop/src/main/webapp/sampling.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4515" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/service/searchService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/upload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="13" column="81" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
+          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_pojo/src/main/java/entity/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/entity/Result.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_shop/src/main/java/cn/itcast/core/controller/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/controller/UploadFileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="16" column="70" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/controller/uploadController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="70" selection-start-column="70" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/service/uploadService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_shop/src/main/webapp/js/service/uploadService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_shop/src/main/webapp/js/controller/goodsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2706">
+          <caret line="123" column="32" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pyg-master/pinyougou_web_shop/src/main/webapp/admin/goods_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-371">
+          <caret line="293" column="84" selection-start-line="293" selection-start-column="84" selection-end-line="293" selection-end-column="84" />
         </state>
       </provider>
     </entry>

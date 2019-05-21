@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.aim.dao.FileDao" >
+    <resultMap id="BaseResultMap" type="com.aim.entity.File" >
+        <id column="id" property="id" jdbcType="BIGINT" />
+        <result column="file_name" property="fileName" jdbcType="VARCHAR" />
+        <result column="web_basePath" property="webBasePath" jdbcType="VARCHAR" />
+        <result column="dist_path" property="distPath" jdbcType="VARCHAR" />
+        <result column="file_size" property="fileSize" jdbcType="BIGINT" />
+        <result column="file_type" property="fileType" jdbcType="VARCHAR" />
+        <result column="description" property="description" jdbcType="VARCHAR" />
+        <result column="upload_date" property="uploadDate" jdbcType="DATE" />
+    </resultMap>
+    <insert id="insertSelective" parameterType="com.aim.entity.File" useGeneratedKeys="true" keyProperty="id">
+        insert into files
+        <trim prefix="(" suffix=")" suffixOverrides="," >
+            <if test="id != null" >
+                id,
+            </if>
+            <if test="fileName != null" >
+                file_name,
+            </if>
+            <if test="webBasePath != null" >
+                web_basePath,
+            </if>
+            <if test="distPath != null" >
+                dist_path,
+            </if>
+            <if test="fileSize != null" >
+                file_size,
+            </if>
+            <if test="fileType != null" >
+                file_type,
+            </if>
+            <if test="description != null" >
+                description,
+            </if>
+            <if test="uploadDate != null" >
+                upload_date,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides="," >
+            <if test="id != null" >
+                #{id,jdbcType=BIGINT},
+            </if>
+            <if test="fileName != null" >
+                #{fileName,jdbcType=VARCHAR},
+            </if>
+            <if test="webBasePath != null" >
+                #{webBasePath,jdbcType=VARCHAR},
+            </if>
+            <if test="distPath != null" >
+                #{distPath,jdbcType=VARCHAR},
+            </if>
+            <if test="fileSize != null" >
+                #{fileSize,jdbcType=BIGINT},
+            </if>
+            <if test="fileType != null" >
+                #{fileType,jdbcType=VARCHAR},
+            </if>
+            <if test="description != null" >
+                #{description,jdbcType=VARCHAR},
+            </if>
+            <if test="uploadDate != null" >
+                #{uploadDate,jdbcType=DATE},
+            </if>
+        </trim>
+    </insert>
+
+</mapper>
