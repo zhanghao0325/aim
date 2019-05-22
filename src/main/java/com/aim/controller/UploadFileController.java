@@ -8,17 +8,16 @@ import com.aim.entity.UplodFile;
 import org.apache.commons.io.FilenameUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
-import org.springframework.web.servlet.ModelAndView;
 import org.springframework.data.solr.core.SolrTemplate;
 import javax.servlet.ServletContext;
 import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 
-@Controller
+@RestController
 @RequestMapping("/upload")
 public class UploadFileController {
     @Autowired
@@ -84,7 +83,6 @@ public class UploadFileController {
             return new Result(true,"成功");
         } catch (Exception e) {
             e.printStackTrace();
-
             return new Result(false,"失败");
         }
     }

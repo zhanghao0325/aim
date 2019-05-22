@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://E:/JByteMod-1.8.0/JByteMod-1.8.0.iml" filepath="E:/JByteMod-1.8.0/JByteMod-1.8.0.iml" />
       <module fileurl="file://E:/aspose-words-18.7-java/aspose-words-18.7-java.iml" filepath="E:/aspose-words-18.7-java/aspose-words-18.7-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../file.convert.master-master/file.convert.master-master/file.convert.master/file.convert.master.iml" filepath="$PROJECT_DIR$/../file.convert.master-master/file.convert.master-master/file.convert.master/file.convert.master.iml" />
     </modules>
   </component>
 </project>
