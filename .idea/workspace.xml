@@ -7,28 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8a9c5cb-3b87-4504-9526-e0afd7b67588" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/SqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/aspose/words/zzZLX.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aim/common/Doc2Pdf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aim/common/GetParagraph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aim/common/ToXml.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aim/common/Xml2Pdf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aim/controller/UploadFileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aim/controller/UploadFileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-solr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-solr.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/springMVC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/controller/uploadController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/controller/uploadController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/service/uploadService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/service/uploadService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AimProject/WEB-INF/classes/db/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/AimProject/WEB-INF/classes/db/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AimProject/WEB-INF/classes/spring/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/AimProject/WEB-INF/classes/spring/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AimProject/WEB-INF/classes/spring/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/AimProject/WEB-INF/classes/spring/springMVC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/springMVC.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -123,8 +102,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/controller/UploadFileController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-633">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="687">
+              <caret line="66" column="49" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -267,72 +246,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="aim" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="aim" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="common" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="aimjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="aimjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="aim" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane" />
     </panes>
@@ -341,7 +255,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558513068347" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558515348315" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../file.convert.master-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -648,7 +562,7 @@
       <workItem from="1557887673736" duration="10185000" />
       <workItem from="1557971859340" duration="50130000" />
       <workItem from="1558341161240" duration="36194000" />
-      <workItem from="1558511000180" duration="1506000" />
+      <workItem from="1558511000180" duration="2282000" />
     </task>
     <task id="LOCAL-00001" summary="修改了一些配置  --张浩">
       <created>1557471303494</created>
@@ -706,7 +620,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558434322731</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="进一步完善文件上传  完成数据库的储存   --张浩">
+      <created>1558513170961</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1558513170961</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -742,7 +663,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154807000" />
+    <option name="totallyTimeSpent" value="155583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -794,7 +715,8 @@
     <MESSAGE value="实现txt文档的分段  --张浩" />
     <MESSAGE value="完成上传solr索引库  --张浩" />
     <MESSAGE value="实现分页   --张浩" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现分页   --张浩" />
+    <MESSAGE value="进一步完善文件上传  完成数据库的储存   --张浩" />
+    <option name="LAST_COMMIT_MESSAGE" value="进一步完善文件上传  完成数据库的储存   --张浩" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1118,8 +1040,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aim/controller/UploadFileController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-633">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="687">
+          <caret line="66" column="49" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
