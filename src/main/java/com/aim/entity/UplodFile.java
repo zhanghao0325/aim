@@ -9,7 +9,15 @@ public class UplodFile {
     private String title;
     @Field("item_desc")
     private String dsc;
+    @Field("item_url")
+    private String url;
+    public String getUrl() {
+        return url;
+    }
 
+    public void setUrl(String url) {
+        this.url = url;
+    }
     public String getId() {
         return id;
     }

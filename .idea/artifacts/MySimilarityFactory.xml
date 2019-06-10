@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MySimilarityFactory">
+    <output-path>$PROJECT_DIR$/../artifacts/MySimilarityFactory</output-path>
+    <root id="archive" name="MySimilarityFactory.jar">
+      <element id="directory" name="com">
+        <element id="directory" name="aim">
+          <element id="directory" name="controller">
+            <element id="file-copy" path="$PROJECT_DIR$/target/classes/com/aim/controller/MySimilarity.class" />
+            <element id="file-copy" path="$PROJECT_DIR$/target/classes/com/aim/controller/MySimilarityFactory.class" />
+          </element>
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

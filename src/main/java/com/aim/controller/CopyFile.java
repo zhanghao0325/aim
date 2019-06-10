@@ -11,8 +11,8 @@ import java.sql.SQLException;
 @Component
 public class CopyFile {
     @Autowired
-    private CsrPdfRead csrPdfRead;
-    public void copy(MultipartFile file,String rs,String originalFilename) throws SQLException, InterruptedException {
+    private ConverFile converFile;
+    public void copy(MultipartFile file, String rs) throws SQLException, InterruptedException {
         try {
             //创建file对象
             File writerFile = new File(rs);
@@ -26,13 +26,19 @@ public class CopyFile {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        int i = originalFilename.indexOf(".");
-        String substring = originalFilename.substring(i);
-//        System.out.println(substring);
-        if (".doc".equals(substring)) {
-
-        } else if (".pdf".equals(substring)) {
-            csrPdfRead.start(rs);
+        try {
+            //判断类型之后做出决定
+            String s = converFile.converFile(rs);
+            System.out.println(s);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
+//        int i = originalFilename.indexOf(".");
+//        String substring = originalFilename.substring(i);
+//        if (".doc".equals(substring)) {
+//
+//        } else if (".pdf".equals(substring)) {
+//            csrPdfRead.start(rs);
+//        }
     }
 }

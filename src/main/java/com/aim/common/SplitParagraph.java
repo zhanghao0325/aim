@@ -36,7 +36,7 @@ public class SplitParagraph {
             sb.append(temp.trim() + "\n");
         }
         // \s A whitespace character: [ \t\n\x0B\f\r]
-        String p[] = sb.toString().split("。");
+        String p[] = sb.toString().split("[。.]");
         for (String string : p) {
             res.add(string.replaceAll("\\s*", ""));
         }

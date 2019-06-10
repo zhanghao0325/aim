@@ -32,12 +32,14 @@ public class CsrPdfRead {
      * @throws InterruptedException
      * @throws SQLException
      */
-    public  void start(String filepath) throws InterruptedException, SQLException {
+    public  String start(String filepath) throws InterruptedException, SQLException {
 
 
         if (!filepath.toUpperCase().endsWith(".TXT")) {
-                    System.out.println(getOrderText(filepath));
-            }
+            String orderText = getOrderText(filepath);
+        return orderText;
+        }
+        return "no txt";
     }
 
     public  String getOrderText(String filepath) {
@@ -95,7 +97,7 @@ public class CsrPdfRead {
             System.out.println("读取文件内容出错");
             e.printStackTrace();
         }
-        return filetxt;
+            return filetxt;
     }
 
     public  String getTextFromPDF(String pdfFilePath) {

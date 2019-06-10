@@ -66,5 +66,11 @@
             </if>
         </trim>
     </insert>
+    <select id="selectByTitle" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select
+    id,file_name,web_basePath,dist_path,file_size,file_type,description,upload_date
+    from files
+    where file_name = #{fileName,jdbcType=VARCHAR}
+  </select>
 
 </mapper>

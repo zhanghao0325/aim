@@ -1,81 +1,75 @@
 <!DOCTYPE html>
 <html>
 
-	<head>
-		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
-		<title>产品列表页</title>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+    <title>搜索</title>
+    <!--<link rel="stylesheet" type="text/css" href="css/webbase.css"/>-->
+    <!--<link rel="stylesheet" type="text/css" href="css/pages-list.css"/>-->
+    <!--<link rel="stylesheet" type="text/css" href="css/widget-cartPanelView.css"/>-->
 
-	    <script type="text/javascript" src="plugins/angularjs/angular.min.js"></script>
-	    <script type="text/javascript" src="js/base.js"></script>
-	    <script type="text/javascript" src="js/service/searchService.js"></script>
-	    <script type="text/javascript" src="js/controller/searchController.js"></script>
-	    
-		
-		
-	</head>
+    <script type="text/javascript" src="plugins/angularjs/angular.min.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+    <script type="text/javascript" src="js/service/searchService.js"></script>
+    <script type="text/javascript" src="js/controller/searchController.js"></script>
+</head>
 
-	<body ng-app="aim" ng-controller="searchController" ng-init="loadkeywords()">
-		<!--页面顶部-->
-		<div class="input-append">
-			<input type="text" id="autocomplete" ng-model="searchMap.keywords" type="text" class="input-error input-xxlarge" />
-			<button class="sui-btn btn-xlarge btn-danger" ng-click="searchMap.pageNo=1;search()" type="button">搜索</button>
-		</div>
-	
-	<!--list-content-->
-	<div class="main">
-		<div class="py-container">
+<body ng-app="aim" ng-controller="searchController" ng-init="loadkeywords()">
+<!--页面顶部-->
+<div>
+    <input type="text" id="filenam" ng-model="searchMap.keywords"  ng-keyup="searchMap.pageNo=1;myKeyup($event)" />
+    <button ng-click="searchMap.pageNo=1;search()" type="button">搜索</button>
+</div>
 
-			<div class="details">
 
-				<div class="goods-list">
-					<ul class="yui3-g">
-						<li class="yui3-u-1-5" ng-repeat="item in resultMap.rows">
-							<div class="list-wrap">
 
-								<div class="title">
-									<strong>
+        <li ng-repeat="item in resultMap.rows">
+            <div>
+                <strong>
+                    <a href="#" ng-click="open(item.url)">{{item.title}}</a>
+                    <!--<i  class="attr">{{item.title | trustHtml}}</i>-->
+                    <!--<i class="attr" ng-bind-html="item.title | trustHtml"></i>-->
+                </strong>
+            </div>
+            <div>
+                <i  ng-bind-html="item.dsc | trustHtml"></i>
+            </div>
+          </li>
 
-											<i>{{item.title}}</i>
-										</strong>
-								</div>
-								<div class="attr" ng-bind-html="item.dsc | trustHtml">
-									
-								</div>
-								<div class="cu">
-									<em></em>
-								</div>
 
-							</div>
-						</li>
-						
-					</ul>
-				</div>
-				<div class="fr page">
-					<div class="sui-pagination pagination-large">
-						<ul>
-							<li class="prev {{isTopPage()?'disabled':''}}">
-								<a href="#" ng-click="queryByPage(searchMap.pageNo-1)">«</a>
-							</li>
-							<li class="dotted" ng-if="firstDot==true"><span>...</span></li>
-							<li ng-repeat="page in pageLabel">
-								<a href="#" ng-click="queryByPage(page)">{{page}}</a>
-							</li>
-							<li class="dotted" ng-if="lastDot==true"><span>...</span></li>
-							<li class="next {{isEndPage()?'disabled':''}}">
-								<a href="#" ng-click="queryByPage(searchMap.pageNo+1)">»</a>
-							</li>
-						</ul>
-						<div><span>共{{resultMap.totalPages}}页&nbsp;</span><span>
+
+
+
+
+
+        <div>
+            <ul>
+                <li class="prev {{isTopPage()?'disabled':''}}">
+                    <a href="#" ng-click="queryByPage(searchMap.pageNo-1)">«</a>
+                </li>
+                <li class="dotted" ng-if="firstDot==true"><span>...</span></li>
+                <li ng-repeat="page in pageLabel">
+                    <a href="#" ng-click="queryByPage(page)">{{page}}</a>
+                </li>
+                <li class="dotted" ng-if="lastDot==true"><span>...</span></li>
+                <li class="next {{isEndPage()?'disabled':''}}">
+                    <a href="#" ng-click="queryByPage(searchMap.pageNo+1)">»</a>
+                </li>
+            </ul>
+            <div><span>共{{resultMap.totalPages}}页&nbsp;</span><span>
       到第
       <input type="text" class="page-num" ng-model="searchMap.pageNo">
-      页 <button class="page-confirm" ng-click="queryByPage(searchMap.pageNo)" >确定</button></span></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+      页 <button class="page-confirm" ng-click="queryByPage(searchMap.pageNo)">确定</button></span></div>
+        </div>
 
-	</body>
+
+<script type="text/javascript" src="js/plugins/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="js/model/cartModel.js"></script>
+<script type="text/javascript" src="js/czFunction.js"></script>
+<script type="text/javascript" src="js/plugins/jquery.easing/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/plugins/sui/sui.min.js"></script>
+<script type="text/javascript" src="js/widget/cartPanelView.js"></script>
+</body>
 
 </html>

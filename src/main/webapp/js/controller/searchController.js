@@ -4,16 +4,28 @@ app.controller('searchController',function($scope,$location,searchService){
 	$scope.searchMap={'keywords':'','pageNo':1,'pageSize':20};
 	
 	//搜索
+	$scope.myKeyup = function(e){
+
+		//IE 编码包含在window.event.keyCode中，Firefox或Safari 包含在event.which中
+		var keycode = window.event?e.keyCode:e.which;
+		if(keycode==13){
+			$scope.search();
+		}
+	};
+	$scope.clear=function(){
+		localStorage.clear();
+	}
 	$scope.search=function(){
-		$scope.searchMap.pageNo= parseInt($scope.searchMap.pageNo);//转换为数字
-		searchService.search($scope.searchMap).success(
-			function(response){
-				$scope.resultMap=response;		
-				
-				buildPageLabel();//构建分页栏			
-				//$scope.searchMap.pageNo=1;//查询后显示第一页
-			}
-		);		
+			$scope.searchMap.pageNo= parseInt($scope.searchMap.pageNo);//转换为数字
+			searchService.search($scope.searchMap).success(
+				function(response){
+					$scope.resultMap=response;
+
+					buildPageLabel();//构建分页栏
+					//$scope.searchMap.pageNo=1;//查询后显示第一页
+				}
+			);
+
 	};
 	
 	//构建分页栏	
@@ -85,7 +97,9 @@ app.controller('searchController',function($scope,$location,searchService){
 	$scope.loadkeywords=function(){
 		$scope.searchMap.keywords= $location.search()['keywords'];
 		$scope.search();//查询
+	};
+	$scope.open=function (url) {
+		window.open(url)
 	}
-
 	
 });
