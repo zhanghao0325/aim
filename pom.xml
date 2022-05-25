@@ -388,7 +388,7 @@
 
             <artifactId>spring-core</artifactId>
 
-            <version>4.0.4.RELEASE</version>
+            <version>5.2.22.RELEASE</version>
 
         </dependency>
 
