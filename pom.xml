@@ -268,7 +268,7 @@
 
             <artifactId>spring-web</artifactId>
 
-            <version>4.0.4.RELEASE</version>
+            <version>4.2.7.RELEASE</version>
 
         </dependency>
 
